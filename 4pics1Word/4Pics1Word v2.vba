@@ -14,8 +14,8 @@
 '		- Replaces CLEAR button
 '	- Added new reset() function
 '		- Works similarly to Reset_Click()
-        - Adds new ANSWER.Visible = True for changing answers
-    - Removed Unused Function comments
+'       - Adds new ANSWER.Visible = True for changing answers
+'       - Removed Unused Function comments
 '	- Removed CLEAR button
 '	- Removed CLEAR_Click() Sub
 
