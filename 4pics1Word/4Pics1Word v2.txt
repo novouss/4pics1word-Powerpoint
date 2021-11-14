@@ -40,13 +40,15 @@ Private Function reset()
     Label.Caption = "Enter answer"
     Label.BackColor = RGB(255, 255, 255)
     btnNext.Visible = False
+    ANSWER.Visible = False
+    ' ANSWER.Visible = True ' Uncomment this to change the answer. Comment to hide the answer.
     
     btn_enable
 End Function
 
 Private Function btn_enable()
     ' Resets buttons
-    ' Private Function btn_enable(ByVal bool As Boolean) ' Remove comment if...
+    ' Private Function btn_enable(ByVal bool As Boolean) ' Uncomment if...
     ' programmer would like to control all the buttons (in terms of enabled)
     btn1.Enabled = True
     btn2.Enabled = True
