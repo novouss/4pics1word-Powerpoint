@@ -42,6 +42,6 @@ The player is given an image, a keyboard containing a limited amount of letters,
 5. Under this Function simply type `userInput btn#` or `userInput CommandButton#`. 
 6. Under the line `Private Function btn_enable()`, add `btn#.Enabled = True` or `CommandButton#.Enabled = True`. This is for the program to reset the buttons.
 
-*Note: The pound sign (#) refers to its button number, it could be btn1, btn2, etc.. Just copy the button number on `btn#_Click()` and put the same number on `userInput btn#` and else where.
+*Note: The pound sign (#) refers to its button number, it could be btn1, btn2, etc.. Just copy the button number on `btn#_Click()` and put the same number on `userInput btn#` and else where.*
 
 5. Save the changes by clicking on `Ctrl + S` and present the second slide in powerpoint. Test the buttons.
