@@ -1,4 +1,4 @@
-' Version 2.0
+' Version 2.1
 
 ' Game Description:
 ' User is given an image, a keyboard containing a limited amount of letters, a label that shows their input, and a button that clears their 
@@ -14,6 +14,8 @@
 '		- Replaces CLEAR button
 '	- Added new reset() function
 '		- Works similarly to Reset_Click()
+        - Adds new ANSWER.Visible = True for changing answers
+    - Removed Unused Function comments
 '	- Removed CLEAR button
 '	- Removed CLEAR_Click() Sub
 
@@ -48,8 +50,6 @@ End Function
 
 Private Function btn_enable()
     ' Resets buttons
-    ' Private Function btn_enable(ByVal bool As Boolean) ' Uncomment if...
-    ' programmer would like to control all the buttons (in terms of enabled)
     btn1.Enabled = True
     btn2.Enabled = True
     btn3.Enabled = True
@@ -59,8 +59,9 @@ Private Function btn_enable()
     btn7.Enabled = True
     btn8.Enabled = True
     btn9.Enabled = True
-    btn10.Enabled = True
-
+    btn10.Enabled = True 
+    
+    ' Add Enabled Buttons here.
 End Function
 
 Sub OnSlideShowPageChange()

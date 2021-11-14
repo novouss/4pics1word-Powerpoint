@@ -1,6 +1,8 @@
 # 4pics1word Powerpoint
 
-4-pics-1-word is a guessing game with four images and the player has to guess a specific word related to the four pictures presented.
+4-pics-1-word is a guessing game with four images and the player has to guess a specific word related to the four pictures presented. 
+
+The player is given an image, a keyboard containing a limited amount of letters, a label that shows their input, and a button that clears their input. The player is given an unknown word that can only be described with the four photos they're given. If the player inputs the incorrect answer say "WRONG!", else if they got the answer correctly say "CORRECT!". Upon getting the correct answer the player is given a NEXT button that moves them to the next level/slide. Everything in the previous slide is resetted.
 
 # How to use
 
@@ -38,7 +40,8 @@
 3. Double click on the button and you should be brought back to `Microsoft Visual Basic for Applications.`
 4. You'll be given a new line and function named `Private Function btn#_Click()` or `Private Function CommandButton#_Click()`
 5. Under this Function simply type `userInput btn#` or `userInput CommandButton#`. 
+6. Under the line `Private Function btn_enable()`, add `btn#.Enabled = True` or `CommandButton#.Enabled = True`. This is for the program to reset the buttons.
 
-*Note: The pound sign (#) refers to its button number, it could be btn1, btn2, etc.. Just copy the button number on `btn#_Click()` and put the same number on `userInput btn#`.
+*Note: The pound sign (#) refers to its button number, it could be btn1, btn2, etc.. Just copy the button number on `btn#_Click()` and put the same number on `userInput btn#` and else where.
 
 5. Save the changes by clicking on `Ctrl + S` and present the second slide in powerpoint. Test the buttons.
